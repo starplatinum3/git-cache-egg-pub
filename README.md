@@ -87,3 +87,5 @@ mysql: {
         database: 'egg_article',
       },
     
+
+    运行视频 https://www.bilibili.com/video/bv1zr4y1q7NC
