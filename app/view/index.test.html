@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>首页</title>
+  <!-- <link rel="stylesheet" href="/public/styles/test.css"> -->
+</head>
+<body onload="index()">
+  <h1>这是首页内容</h1>
+  <!-- 接收参数 -->
+  <p>id: <%=res.id%></p>
+  <p>name: <%=res.name%></p>
+  <!-- 渲染列表 -->
+  <ul class="lists">
+    <%for(var i=0;i<list.length;i++){%>
+    <li><%=list[i]%></li>
+    <%}%>
+  </ul>
+  <!-- 渲染图片 -->
+  <img src="/public/images/koala.png" alt="koala" srcset="">
+  <script>
+    const index = () => {
+      alert('!!!!!')
+    }
+  </script>
+  <style lang="css">
+    h1{
+      color: #f60;
+    }
+  </style>
+</body>
+</html>
